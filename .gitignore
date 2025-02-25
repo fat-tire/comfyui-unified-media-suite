@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pypirc
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+__pypackages__/
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trashes
