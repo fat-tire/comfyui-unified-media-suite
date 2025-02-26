@@ -1,0 +1,15 @@
+[project]
+name = "unified-media-suite"
+description = "Lightweight [a/PyAV](https://pypi.org/project/av/)-powered ComfyUI nodes to load/save multimedia."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["av"]
+
+[project.urls]
+Repository = "https://github.com/fat-tire/comfyui-unified-media-suite"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-unified-media-suite"
+Icon = ""
