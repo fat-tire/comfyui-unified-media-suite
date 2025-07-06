@@ -17,7 +17,7 @@ class MediaSave:
     @classmethod
     def INPUT_TYPES(cls):
         # need a temporary outputContainer to grab the codecs and pix_fmts for the UI
-        with av.open("/dev/null", "w", "mp4") as cont:
+        with av.open(os.devnull, "w", "mp4") as cont:
             supported_codecs = sorted(cont.supported_codecs)
             vid_cods, aud_cods, vid_pix_fmts = [], [], []
             for candidate in supported_codecs:
